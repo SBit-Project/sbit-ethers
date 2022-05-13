@@ -24,7 +24,7 @@
     "wif": "^2.0.6"
   },
   "name": "sbit-ethers-wrapper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./build/main/index.js",
   "license": "MIT",
   "homepage": "https://github.com/SBit-Project/sbit-ethers",
