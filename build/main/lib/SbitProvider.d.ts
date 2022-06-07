@@ -30,7 +30,7 @@ declare const SbitProvider_base: {
          * Function to handle grabbing UTXO's from janus
          * prepareRequest in https://github.com/ethers-io/ethers.js/blob/master/packages/providers/src.ts/json-rpc-provider.ts
          */
-        getUtxos(from: string, neededAmount?: number | undefined): Promise<any>;
+        getUtxos(from: string, neededAmount?: number): Promise<any>;
         /**
          * Override to handle grabbing UTXO's from janus
          * prepareRequest in https://github.com/ethers-io/ethers.js/blob/master/packages/providers/src.ts/json-rpc-provider.ts
@@ -56,7 +56,7 @@ declare const SbitJsonRpcProvider_base: {
          * Function to handle grabbing UTXO's from janus
          * prepareRequest in https://github.com/ethers-io/ethers.js/blob/master/packages/providers/src.ts/json-rpc-provider.ts
          */
-        getUtxos(from: string, neededAmount?: number | undefined): Promise<any>;
+        getUtxos(from: string, neededAmount?: number): Promise<any>;
         /**
          * Override to handle grabbing UTXO's from janus
          * prepareRequest in https://github.com/ethers-io/ethers.js/blob/master/packages/providers/src.ts/json-rpc-provider.ts
@@ -82,7 +82,7 @@ declare const SbitWebSocketProvider_base: {
          * Function to handle grabbing UTXO's from janus
          * prepareRequest in https://github.com/ethers-io/ethers.js/blob/master/packages/providers/src.ts/json-rpc-provider.ts
          */
-        getUtxos(from: string, neededAmount?: number | undefined): Promise<any>;
+        getUtxos(from: string, neededAmount?: number): Promise<any>;
         /**
          * Override to handle grabbing UTXO's from janus
          * prepareRequest in https://github.com/ethers-io/ethers.js/blob/master/packages/providers/src.ts/json-rpc-provider.ts
@@ -120,7 +120,7 @@ declare const SbitProviderSubprovider_base: {
          * Function to handle grabbing UTXO's from janus
          * prepareRequest in https://github.com/ethers-io/ethers.js/blob/master/packages/providers/src.ts/json-rpc-provider.ts
          */
-        getUtxos(from: string, neededAmount?: number | undefined): Promise<any>;
+        getUtxos(from: string, neededAmount?: number): Promise<any>;
         /**
          * Override to handle grabbing UTXO's from janus
          * prepareRequest in https://github.com/ethers-io/ethers.js/blob/master/packages/providers/src.ts/json-rpc-provider.ts
